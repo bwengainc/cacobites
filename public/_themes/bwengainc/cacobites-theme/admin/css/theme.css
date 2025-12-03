@@ -1,0 +1,9 @@
+
+.ui.primary.button {
+    background-color: #cf7540;
+    &:hover, &:focus { background-color: #cf7540; }
+}
+
+ .item.active {
+        background:#cf7540 !important;
+    }

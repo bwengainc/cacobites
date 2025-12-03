@@ -1,0 +1,14 @@
+sylius_admin:
+    resource: "@SyliusAdminBundle/Resources/config/routing.yml"
+    prefix: '/%sylius_admin.path_name%'
+
+sylius_paypal_admin:
+    resource: "@SyliusPayPalPlugin/Resources/config/admin_routing.yml"
+    prefix: '/%sylius_admin.path_name%'
+
+sylius_bot_plugin_admin:
+    resource: "@SyliusBotPlugin/config/admin_routing.yml"
+    prefix: /admin
+
+sylius_bot_plugin_sylius_bot:
+    resource: "@SyliusBotPlugin/config/routes.yml"

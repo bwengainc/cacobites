@@ -1,0 +1,148 @@
+
+.pusher > #menu::after { 
+    background: #cf7540;
+}
+
+.ui.inverted.vertical.footer.segment
+ {
+     background: #0b0a0a;
+
+ }
+
+ .pre-footer
+ {
+    background: #cf7540;
+ }
+
+header .ui.three.column.stackable.grid > .column:nth-child(3) .button .icon
+{
+    color:#761214;
+}
+ 
+
+
+[data-route=sylius_shop_homepage] .ui.huge.header::after, .ui.horizontal.section.divider.header::after {
+ 
+    color:#761214;;
+}
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.whatsapp-float i {
+  color: #fff;
+  font-size: 24px;
+}
+
+
+.primary.button {
+    background: #cf7540 !important;
+}
+
+.promotion_label {
+    background-color: #761214 !important;
+    color: #fff !important;
+}
+
+a:hover {
+    color: #cf7540 !important;
+}
+
+
+[data-route="sylius_shop_product_show"] .ui.top.attached.large.tabular.menu .item.active {
+    border-color: #cf7540;
+}
+
+
+[data-route="sylius_shop_homepage"] .homepage-banner .homepage-banner__content .button {
+        color: #761214 !important;
+    }
+
+
+
+
+
+
+[data-route="sylius_shop_login"] .ui.segment > .relaxed.grid .column:first-child button.button {
+    background: #cf7540;
+}
+
+[data-route="sylius_shop_login"] .ui.segment > .relaxed.grid .column:last-child {
+    padding: 30px 60px 70px 60px !important;
+}
+
+[data-route="sylius_shop_login"] .ui.segment > .relaxed.grid .column:last-child .button {
+    background: #cf7540;
+}
+
+[data-route="sylius_shop_login"] .ui.segment > .relaxed.grid .column:last-child .button:hover {
+    border: 1px solid #cf7540;
+}
+
+
+
+[data-route^="sylius_shop_checkout_"] .steps .active .title,
+[data-route^="sylius_shop_checkout_"] .steps .step.completed i::before {
+    color: #cf7540 !important;
+}
+
+input:focus {
+    border-color: #cf7540 !important;
+}
+
+
+
+.ui.button.primary,
+.ui.basic.button.primary,
+.ui.labeled.button.primary,
+.ui.labeled.icon.button.primary,
+.buttons .ui.labeled.icon.button.primary,
+.ui.button.green,
+.ui.basic.button.green,
+.ui.labeled.button.green,
+.ui.labeled.icon.button.green,
+.buttons .ui.labeled.icon.button.green,
+.ui.button.submit,
+.ui.basic.button.submit,
+.ui.labeled.button.submit,
+.ui.labeled.icon.button.submit,
+.buttons .ui.labeled.icon.button.submit {
+    background: #cf7540 !important;
+    border-color: #cf7540 !important;
+}
+
+
+.ui.button:hover,
+.ui.basic.button:hover,
+.ui.labeled.button:hover,
+.ui.labeled.icon.button:hover,
+.buttons .ui.labeled.icon.button:hover {
+    background: #df996c !important;
+    color: #ffffff !important;
+    border-color: #761214 !important;
+}
+
+.ui.toggle.checkbox input:checked~.box:before, .ui.toggle.checkbox input:checked~label:before,
+.ui.toggle.checkbox input:focus:checked~.box:before, .ui.toggle.checkbox input:focus:checked~label:before {
+    background-color: #cf7540 !important;
+}
+
+
+
+.ui.breadcrumb a {
+    color: #761214;
+}
+
+
+.ui.star.rating .active.icon {
+    color: #761214 !important;
+    text-shadow: none !important;
+}

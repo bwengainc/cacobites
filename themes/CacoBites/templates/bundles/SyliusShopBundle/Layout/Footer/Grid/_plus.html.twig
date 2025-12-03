@@ -1,0 +1,15 @@
+<div class="four wide column">
+    <a href="#" target="_blank" style="display: inline-block; text-align: center;">
+        <h4 class="ui inverted header" style="color: #808080;">
+            Need More Products?
+            <div class="sub header" style="padding: 5px 0;">Check Caco Bites out!</div>
+        </h4>
+        {% if use_webpack %}
+            <img class="ui fluid image" style="max-width: 170px;" src="{{ asset('build/app/shop/images/Logo_web.a9967a3a.png', 'shop') }}" alt="Caco Bites">
+        {% else %}
+            <img class="ui fluid image" style="max-width: 170px;" src="{{ asset('assets/shop/img/Logo_web.png') }}" alt="Caco Bites">
+        {% endif %}
+    </a>
+</div>
+
+

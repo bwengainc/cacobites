@@ -1,0 +1,57 @@
+# Faili hili ni sehemu ya kifurushi cha Sylius.
+# (c) Sylius Sp. z o.o.
+
+sylius:
+    email:
+        order_confirmation:
+            has_been_successfully_placed: 'imewekwa kwa mafanikio.'
+            subject: 'Uthibitisho wa oda'
+            view_order_or_change_payment_method: 'Tazama oda au badilisha njia ya malipo'
+            thank_you: 'Asante kwa kununua katika duka letu!'
+            your_order_number: 'Nambari ya oda yako'
+        password_reset:
+            hello: 'Habari'
+            reset_your_password: 'Weka upya nenosiri lako'
+            subject: 'Uwekaji upya nenosiri'
+            to_reset_your_password: 'Ili kuweka upya nenosiri lako - bonyeza kiungo kilicho chini'
+            to_reset_your_password_token: 'Ili kuweka upya nenosiri lako - tumia tokeni iliyo chini'
+            token: 'Tokeni yako ya kuweka upya nenosiri ni'
+        user_registration:
+            start_shopping: 'Anza kununua'
+            subject: 'Usajili wa mtumiaji'
+            welcome_to_our_store: 'Karibu kwenye duka letu!'
+            you_have_just_been_registered: 'Umesajiliwa sasa hivi. Asante'
+        verification_token:
+            hello: 'Habari'
+            subject: 'Uhakiki wa anwani ya barua pepe'
+            to_verify_your_email_address: 'Ili kuthibitisha anwani yako ya barua pepe - bonyeza kiungo kilicho chini'
+            verify_your_email_address: 'Thibitisha anwani yako ya barua pepe'
+    footer:
+        banner:
+            free_shipping_title: 'Usafirishaji Bure & Kurudisha'
+            free_shipping_content: 'Usafirishaji bure kwa oda zote'
+            guarantee_title: 'Dhamana ya Pesa'
+            guarantee_content: 'Dhamana ya kurejesha pesa ndani ya siku 30'
+            multiple_payments_title: 'Njia nyingi za malipo'
+            multiple_payments_content: 'Tunapokea kadi za mkopo na PayPal'
+    homepage:
+        about_us: 'Kuhusu Sisi'
+        about_us_content: 'Karibu kwenye duka letu, duka lako namba moja mtandaoni linalokupa bidhaa bora kabisa. Unaweza kuchagua kutoka kwa nguo na viatu bora zaidi vilivyopo kwenye ofa yetu. (<i>Unaweza kubadilisha maudhui haya kwa kubadilisha ufunguo "sylius.homepage.about_us_content" katika faili yako ya tafsiri</i>)'
+        banner_content: 'Jiandae! Majira ya baridi yanakuja'
+        banner_button: 'Angalia mkusanyiko mpya'
+        carousel_header: 'Bidhaa zilizochaguliwa'
+        newsletter: 'Jarida'
+        newsletter_description: 'Jisajili kwenye jarida letu ili kuona ofa mpya zinazokusubiri! (<i>Unaweza kubadilisha maudhui haya kwa kubadilisha ufunguo "sylius.homepage.newsletter_description" katika faili yako ya tafsiri</i>)'
+        subscribe: 'Jisajili'
+    lightbox:
+        image_album_label: 'Picha %1 kati ya %2'
+    menu:
+        shop:
+            account:
+                address_book: 'Kitabu cha anwani'
+                change_password: 'Badilisha nenosiri'
+                dashboard: 'Dashibodi'
+                header: 'Akaunti yako'
+                order_history: 'Historia ya oda'
+                personal_information: 'Taarifa binafsi'
+    top_bar: 'Jisajili kwenye jarida letu na pata punguzo la -20%'

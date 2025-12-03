@@ -1,0 +1,14 @@
+{
+    "name": "bwengainc/cacobites-theme",
+    "title": "The Official Caco Store Theme",
+    "description": "Food store website template",
+    "authors": [
+        {
+            "name": "Bwengainc",
+            "email": "bwengainc@gmail.com",
+            "homepage": "https://bwengainc.net",
+            "role": "Developer"
+        }
+    ]
+    
+}
