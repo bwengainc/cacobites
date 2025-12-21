@@ -1,0 +1,22 @@
+{% if order.channel.contactPhoneNumber %}
+    <h2 class="ui center aligned icon header">
+        <i class="circular phone icon"></i>
+        {{ order.channel.contactPhoneNumber }}
+        <span class="sub header">
+            {{ 'sylius.ui.need_assistance'|trans }} {{ 'sylius.ui.call_us'|trans }}
+        </span>
+    </h2>
+{% endif %}
+
+<div class="ui divider"></div>
+
+<div class="ui center aligned basic segment">
+    <!--<i class="huge cc mastercard icon"></i>
+    <i class="huge cc visa icon"></i>
+    <i class="huge cc paypal card icon"></i>
+    -->
+    {# Custom mobile money icons #} 
+    <img src="{{ asset('assets/images/Vodacom-Tanzania.jpg') }}" alt="M-Pesa" width="90" height="40"  /> 
+    <img src="{{ asset('assets/images/airtelafrica-logo.png') }}" alt="Airtel Money" width="90" height="40"/>
+    <img src="{{ asset('assets/images/mixx_yas-removebg-preview.png') }}" alt="Yas(Tigo Pesa)" width="90" height="45" />
+</div>

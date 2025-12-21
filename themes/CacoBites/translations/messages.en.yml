@@ -36,9 +36,9 @@ sylius:
             multiple_payments_content: 'We accept credit cards and PayPal'
     homepage:
         about_us: 'About Us'
-        about_us_content: 'Welcome to our store, your number one online shop that gives you the very best products. You can choose from the very best clothes and shoes from our offer. (<i>You can modify this content by overriding "sylius.homepage.about_us_content" key in your translation file</i>)'
-        banner_content: 'Brace yourself! Winter is coming'
-        banner_button: 'Check out the new collection'
+        about_us_content: 'Welcome to our store, your number one online shop that gives you the very best products. You can choose from the very best cookies, breads and cakes from our offer.'
+        banner_content: 'HAND BAKED EVERY DAY'
+        banner_button: 'Experience Fresh Taste'
         carousel_header: 'Featured products'
         newsletter: 'Newsletter'
         newsletter_description: 'Subscribe to our newsletter to see new offers that are waiting for you! (<i>You can modify this content by overriding "sylius.homepage.newsletter_description" key in your translation file</i>)'
